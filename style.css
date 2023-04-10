@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main {
+    width: 420px;
+    height: 420px;
+    background-color: #121417;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+.main-for-feedback {
+    width: 420px;
+    height: 420px;
+    background-color: #121417;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+}
+
+.hidden {
+    display: none;
+}
+
+.circle-with-star {
+    width: 55px;
+    height: 55px;
+    background-color: #252D37;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Overpass';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Overpass';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #959494;
+}
+
+.p-for-feedback-rating {
+    color: #E68226;
+    background-color: #252D37;
+    border-radius: 10px;
+    width: 175px;
+    padding: 5px;
+}
+
+.p-for-feedback-text {
+    font-family: 'Overpass';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #959494;
+    margin-left: 20px;
+}
+
+.numbers-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.number-button {
+    width: 55px;
+    height: 55px;
+    background-color: #252D37;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    font-size: 20px;
+    font-family: 'Overpass';
+    color: white;
+}
+
+.submit-button {
+    width: 365px;
+    height: 59px;
+    border: none;
+    border-radius: 50px;
+    background-color: #E68226;
+}
+
+.rate-again-button {
+    width: 320px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: #E68226;
+}
+
+.submit {
+    font-family: 'Overpass';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+
+.rate-again {
+    font-family: 'Overpass';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+
+.number-button:hover {
+    background-color: #E68226;
+}
+
+.submit-button:hover {
+    background-color: white;
+}
+
+.submit:hover{
+    color: #E68226;
+}
+
+.number-button:focus {
+    background-color: #959494;
+}
+
+.change-color {
+    background-color: #E68226;
+}
